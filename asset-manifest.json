@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/react_shopping_cards/static/js/main.0bd9b8e4.js",
+    "static/media/tonkatsu.jpg": "/react_shopping_cards/static/media/tonkatsu.c62960d11c4c3b1a269b.jpg",
+    "static/media/bibinba.jpg": "/react_shopping_cards/static/media/bibinba.83a1154b7366eadb68c5.jpg",
+    "static/media/ramen.jpg": "/react_shopping_cards/static/media/ramen.07f144d05c17a02227cb.jpg",
+    "static/media/chicken.jpg": "/react_shopping_cards/static/media/chicken.a10172f9cf202dcc7f38.jpg",
+    "index.html": "/react_shopping_cards/index.html",
+    "main.0bd9b8e4.js.map": "/react_shopping_cards/static/js/main.0bd9b8e4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0bd9b8e4.js"
+  ]
+}
