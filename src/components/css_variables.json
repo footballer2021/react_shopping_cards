@@ -1,0 +1,22 @@
+{
+    "variable": {
+        "clrPrimary": "#0e48fe",
+        "clrPrimaryHover": "#29e6a7",
+        "clrPrimaryDark": "#039d69",
+        "clrGray100": "#f9fbff",
+        "clrGray150": "#f4f6fb",
+        "clrGray200": "#eef1f6",
+        "clrGray300": "#e1e5ee",
+        "clrGray400": "#767b91",
+        "clrGray500": "#4f546c",
+        "clrGray600": "#2a324b",
+        "clrGray700": "#161d34",
+        "radius": "0.2rem",
+        
+        "baseColor": "#ff0000",
+        "textColor": "#333",
+        "textColor_w": "#fff",
+        "bgColor_g": "#eee",
+        "textSize": "14px"
+    }
+}

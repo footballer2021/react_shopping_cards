@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import { Card } from './components/Card';
+import ramen from "./images/ramen.jpg";
+import chicken from "./images/chicken.jpg";
+import tonkatsu from "./images/tonkatsu.jpg";
+import bibinba from "./images/bibinba.jpg";
 
-function App() {
+const SWrapper = styled.div`
+  margin: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+  @media screen and (min-width: 600px) {
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    }
+`;
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SWrapper>
+      <Card img={ramen}
+      title="しょうゆラーメン" description="定番のラーメン" price="600"/>
+      <Card img={chicken} 
+      title="オリジナルチキン" description="KFCのチキン" price="500"/>
+
+      <Card
+        img={tonkatsu}
+        title="とんかつ定食"
+        description="ボリューム満点"
+        price="1100"
+      />
+      <Card
+        img={bibinba}
+        title="石焼きビビンバ"
+        description="熱くて辛うま"
+        price="1200"
+      />
+    </SWrapper>
   );
 }
 
-export default App;
