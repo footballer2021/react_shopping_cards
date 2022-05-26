@@ -19,12 +19,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "yarn build && gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
-  "homepage":"https://footballer2021.github.io/react_shopping_cards",
+  "homepage": "https://footballer2021.github.io/react_shopping_cards",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.25"
+    "@types/styled-components": "^5.1.25",
+    "gh-pages": "^4.0.0"
   }
 }
